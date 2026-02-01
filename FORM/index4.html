@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+</head>
+<body>
+    <h1>Event Registration</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        
+        <br><br>
+        <label for="emailID">Email ID:</label>
+        <input type="text" id="emailID" name="emailID">
+
+        <br><br>
+        <label for="phone no.">Phone Number:</label>
+        <input type="tel" id="phone no." name="phone no.">
+
+        <br><br>
+        <label for="OccupationType">Occupation Type:</label>
+        <select name="occupationType" id="occupationType">
+            <option value="student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Businessman">Business Man</option>
+            <option value="Engineer">Engineer</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br><br>
+            <fieldset>
+                <legend><b>Topics of Interest.</b></legend>
+                 <label for="checkbox">HTML</label>
+                 <input type="checkbox" name="checkbox" id="checkbox">
+
+                 <br><br>
+                 <label for="checkbox">CSS</label>
+                 <input type="checkbox" name="checkbox" id="checkbox">
+
+                 <br><br>
+                 <label for="checkbox">JAVASCRIPT</label>
+                 <input type="checkbox" name="checkbox" id="checkbox">
+
+                 <br><br>
+                 <label for="checkbox">BOOTSTRAP</label>
+                 <input type="checkbox" name="checkbox" id="checkbox">
+            </fieldset>
+
+            <br><br>
+            <label for="text">Comment:</label>
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter yours comments here....."></textarea>
+
+            <br><br>
+            <input type="button" value="Registration">
+
+    </form>
+</body>
+</html>
