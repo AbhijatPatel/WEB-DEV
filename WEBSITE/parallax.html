@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Website</title>
+
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins", "sans-serif";
+      }
+
+      main {
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+        perspective: 10px;
+      }
+
+      .container {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+        z-index: -1;
+      }
+
+      .container img {
+        position: relative;
+        height: 90%;
+        width: 100%;
+        left:-50%;
+        object-fit: cover;
+        z-index: -1;
+      }
+
+      #background {
+        transform: translateZ(-40px) scale(9);
+      }
+
+      #foreground {
+        transform: translateZ(-20px) scale(1.6);
+      }
+
+      .container h1 {
+        position: absolute;
+        top: 2rem;
+        color:white;
+        left: 50%;
+        letter-spacing: 4px;
+        transform: translateX(-50%);
+        font-size: 10rem;
+        font-weight: 700;
+        text-shadow: 0 0 10px rgb(255, 149, 0)
+      }
+
+      section {
+        background: rgb(45, 45, 45);
+        color: #fff;
+        padding: 5rem 0px;
+        text-shadow: 0 0 10px green;
+      }
+
+      section h2 {
+        font-size: 5rem;
+        padding: 0 10rem;
+      }
+
+      .text {
+        font-size: 1.5rem;
+        padding: 0 10rem;
+        margin: 5rem 0;
+      }
+
+      .bg1 {
+        background-image: url(bicking.avif);
+      }
+
+      .bg2 {
+        background-image: url(para\ glading.avif);
+      }
+
+      .bg3 {
+        background-image: url(surfing.jpg);
+      }
+
+      .box {
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+      }
+
+      .box h4 {
+        font-size: 3.5rem;
+        color: black;
+        font-weight: 600;
+        text-transform: uppercase;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img src="premium_photo-1673859054724-d3ce699da39d.avif" alt="background" id="background" />
+        <img src="compressed_f475fbea47137838f472fc0ffdc51814.webp" alt="foreground" id="foreground" />
+        <h1>ADVENTURE</h1>
+      </div>
+
+      <section>
+        <h2>ADVENTURE TIME !</h2>
+        <P class="text">
+        <span>&#8658;</span>     <b>A</b>dventure Time is a popular animated series set in the magical Land of Ooo. It follows the adventures of Finn, a brave human boy, and Jake, his magical shape-shifting dog. Together they explore different kingdoms, help people, and fight strange enemies. The show is full of humor, fantasy, and exciting adventures. Characters like Princess Bubblegum, Ice King, and Marceline make the story more interesting. The series teaches important lessons about friendship, courage, and kindness while keeping the story fun and imaginative.   
+        <br /><br />
+        <span>&#8658;</span>     <b>A</b>dventure Time is loved by audiences because it combines comedy with deep emotional storytelling. The characters grow and learn from their experiences, showing that everyone makes mistakes and improves with time. The colorful animation and creative world make every episode unique. Music and meaningful messages add depth to the show. It encourages viewers to be brave, caring, and creative. Because of its originality and strong themes, Adventure Time remains one of the most memorable animated shows.
+        </p>
+
+        <div class="box bg1">
+          <h4>BIKING</h4>
+        </div>
+        <p class="text">
+            <span>&#8658;</span>    <b>B</b>iking is a popular outdoor activity that people enjoy for fun, fitness, and travel. It helps improve physical health by strengthening muscles and increasing stamina. Riding a bicycle allows individuals to explore parks, roads, and natural surroundings while enjoying fresh air. Biking is also an eco-friendly mode of transportation that reduces pollution. Many people participate in mountain biking and long-distance cycling for adventure. It builds confidence, balance, and coordination. Overall, biking is a healthy and enjoyable activity for people of all ages.
+            <br><br>
+            <span>&#8658;</span>    <b>B</b>iking is an enjoyable outdoor activity that promotes health and fitness. It helps strengthen muscles, improve stamina, and maintain a healthy lifestyle. People ride bicycles for exercise, travel, and adventure. Biking also allows individuals to explore nature and enjoy fresh air. It is an eco-friendly activity that reduces pollution and traffic. With regular practice, biking improves balance and coordination. It is a simple yet exciting activity suitable for all age groups.
+        </p>
+
+        <div class="box bg2">
+          <h4>PARA GLIDING</h4>
+        </div>
+        <p class="text">
+            <span>&#8658;</span>  <b>P</b>aragliding is an exciting adventure sport in which a person flies in the air using a lightweight parachute. It gives a thrilling feeling of freedom while floating above mountains and landscapes. Pilots control direction and speed using special lines attached to the wing. Proper training and safety equipment are important before trying paragliding. The experience offers breathtaking aerial views and a sense of peace in the sky. Many tourists try paragliding to overcome fear and enjoy adventure. It is both exciting and unforgettable.
+            <br><br>
+            <span>&#8658;</span>  <b>P</b>aragliding is a thrilling air sport where a person flies using a lightweight parachute-like wing. It offers a unique experience of floating in the sky while enjoying beautiful landscapes below. Proper training and safety equipment are essential for safe flying. The sport requires courage and focus to control direction and landing. Many adventure lovers try paragliding to experience freedom and excitement. It provides unforgettable memories and breathtaking views from high altitudes.
+
+
+        <div class="box bg3">
+          <h4>SURFING</h4>
+        </div>
+        <p class="text">
+          <span>&#8658;</span>  <b>S</b>urfing is a water sport where a person rides ocean waves using a surfboard. It requires balance, timing, and practice to move smoothly with the waves. Surfers wait for the right wave and then glide across the water with skill and control. This sport improves physical strength and coordination. Surfing is popular in coastal areas and attracts adventure lovers worldwide. It also helps people connect with nature and enjoy the ocean environment. Surfing is thrilling, refreshing, and full of energy.
+          <br><br>
+          <span>&#8658;</span>  <b>S</b>urfing is an adventurous water sport in which a person rides ocean waves on a surfboard. It requires balance, strength, and good timing to move smoothly with the waves. Surfers enjoy the thrill of the sea while improving their physical fitness. The sport is popular in coastal regions and attracts tourists worldwide. Surfing also teaches patience and connection with nature. It is both challenging and refreshing, making it a favorite adventure activity.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
