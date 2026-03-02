@@ -1,0 +1,89 @@
+.box1{
+    border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(red,green);
+    background-image: linear-gradient(to right,red,green);
+    background-image: linear-gradient(to left,red,green,blue);
+    background-image: linear-gradient(orange,white,green);
+}
+
+.box2{
+    border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: radial-gradient(red,yellow,green);
+    background-image: radial-gradient(red 30%,yellow 70%,green 80%);
+     background-image: radial-gradient(circle,red 30%,yellow 70%,green 80%);
+
+
+}
+
+.box3{
+        border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    background-image:conic-gradient(orange,white,green);
+}
+
+h1{
+    text-shadow: 3px 3px 1px red , 5px 5px 1px green;
+}
+
+.box4{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 0 10px green;
+}
+
+.container{
+    border: 5px solid black;
+    position: relative;
+    width:500px;
+    height:300px;
+}
+.container div{
+    position: absolute;
+    border: 1px solid blue;
+}
+
+.top{
+    color: red;
+    top:0px
+
+}
+
+.top-right{
+    color:green;
+    top:1px;
+    right:0px
+}
+
+.bottom{
+    color:blue;
+    bottom: 0px;
+}
+
+.bottom-right{
+    color:chartreuse;
+    bottom:0px;
+    right:0px;
+}
+
+.center{
+    color:chocolate;
+    top:50%;
+    left:50%;
+}
+
+.box5{
+    background-color: blueviolet;
+    margin:100px;
+    transform: translate(100px,200px);
+    transform: rotate(45deg);
+    transform: scale(2,3);
+    transform: skew(45deg);
+    transform: matrix(1,2,4,7,9,);
+
+}
