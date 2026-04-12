@@ -1,10 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Abhijat Patel">
+    <meta name="format-detection" content="telephone=no">
     <title>Portfolio Website - Abhijat Patel</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -17,20 +20,21 @@
             <div class="navbar">
                 
                 <div class="logo-container">
-                    <img src="./image/logo.png" class="logo" alt="">
+                    <img src="./image/A logo.png" class="logo" alt="">
                     <div class="logo-text">b<span class="blue-text">h</span>i<span class="orange-text">j</span>a<span class="blue-text">t</span> <span class="orange-text">P</span>a<span class="blue-text">t</span>e<span class="orange-text">l</span></div>
                 </div>
                 
                 <div class="nav-items">
                     <div><a href="#home">Home</a></div>
                     <div><a href="#projects">Projects</a></div>
+                    <div><a href="#whatwedo">What We Do</a></div>
                     <div><a href="#skills">Skills</a></div>
                     <div><a href="#contactme">Contact Me</a></div>
                 </div>
 
             </div>
 
-            <div class="hero-section">
+            <div class="hero-section" id="home">
 
                 <div class="faded-text">Abhijat Patel</div>
     
@@ -50,29 +54,37 @@
     
                 </div>
     
-                <div class="hero-section-right">
-                    <div class="absolute icons icon-dots">
-                        <img src="./image/dots.png" alt=""  class="small-img"/>
-                      </div>
-                      <div class="absolute icons icon-cube">
-                        <img src="./image/cube.png" alt="" class="small-img"/>
-                      </div>
-                      <div class="absolute icons icon-circle">
-                        <img src="./image/circle.png" alt="" class="small-img"/>
-                      </div>
-                      <div class="absolute icons icon-zigzag">
-                        <img src="./image/zig-zag.png" alt="" class="small-img"/>
-                      </div>
-                      <div class="absolute icons icon-plus">
-                        <img src="./image/plus.png" alt="" class="small-img"/>
-                      </div>
-                      <div class="user-image">
-                        <img src="./image/user1.png" alt="" class="small-uimg" />
-                      </div>
-                </div>
+              <div class="user-image">
+  <img src="./image/myuser.png" alt="profile">
+</div>
     
             </div>
         </div>
+
+        <section class="what-we-do-section" id="whatwedo">
+          <div class="container">
+            <h2 class="what-we-do-heading">What We Do</h2>
+            <div class="what-we-do-inner">
+              <div class="service-grid">
+                <div class="service-card">
+                  <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                  <h3 class="service-title">Custom Web Apps</h3>
+                  <p class="service-description">Build fast, responsive websites and web apps using modern technologies like Next.js, React, Node.js, and Tailwind CSS.</p>
+                </div>
+                <div class="service-card">
+                  <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+                  <h3 class="service-title">UI/UX Design</h3>
+                  <p class="service-description">Design clean, intuitive user experiences that look great on desktop and mobile while keeping accessibility and performance top of mind.</p>
+                </div>
+                <div class="service-card">
+                  <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+                  <h3 class="service-title">Launch & Support</h3>
+                  <p class="service-description">Deploy your project with optimized hosting, site speed, and ongoing support so your product works smoothly in production.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <div class="project-section" id="projects">
             <h2 class="page-header">Projects</h2>
@@ -127,8 +139,8 @@ Driven by precision and style, delivering protection that keeps your car looking
                     </div>
                     <h2 class="project-heading">Breaking Copyrights</h2>
                     <p class="project-sub-heading">
-                      A platform that provides copyright-free music for YouTube creators and content makers.
-It helps users access high-quality, royalty-free tracks to enhance their videos without worrying about copyright issues.
+                      A platform that provides copyright-free music for YouTube creators and content makers.<br>It helps users access high-quality, 
+royalty-free tracks to enhance their videos without worrying about copyright issues.
                     </p>
                     <div class="btn-group">
                       <button class="btn-pink btn-project">Read More</button>
@@ -156,8 +168,9 @@ It helps users access high-quality, royalty-free tracks to enhance their videos 
           
                     <h2 class="project-heading">Irraya</h2>
                     <p class="project-sub-heading">
-                      A website designed for an interior designer to elegantly showcase her projects, designs, and creative portfolio.
-Crafted to reflect style and vision, it highlights her work with a refined and professional presentation.
+                      A website designed for an interior designer to elegantly showcase her projects,
+                       designs, and creative portfolio.<br>
+                       Crafted to reflect style and vision,it highlights her work with a refined and professional presentation.
                     </p>
                     <div class="btn-group">
                       <button class="btn-pink btn-project">Read More</button>
@@ -182,7 +195,7 @@ Crafted to reflect style and vision, it highlights her work with a refined and p
                     <h2 class="project-heading">Nivaan</h2>
                     <p class="project-sub-heading">
                       An architectural website designed to help plan and visualize your building or home with precision and creativity.
-Built in Hebrew, it offers a seamless and intuitive experience tailored for users to design, organize, and bring their architectural ideas to life.
+Built in Hebrew, it offers a seamless and intuitive experience tailored for users to design, organize,<br> and bring their architectural ideas to life.
                     </p>
                     <div class="btn-group">
                       <button class="btn-pink btn-project">Read More</button>
@@ -293,7 +306,6 @@ Built in Hebrew, it offers a seamless and intuitive experience tailored for user
           <footer>
             <div class="container">
               <div class="footer-wrapper">
-                <div class="footer-faded-text">Abhijat Patel</div>
 
                 <div class="link-wrapper">
                   <div>
@@ -314,6 +326,9 @@ Built in Hebrew, it offers a seamless and intuitive experience tailored for user
                   <i class="fa-brands fa-instagram icon"></i>
                   <i class="fa-brands fa-envelope icon"></i>
 
+                </div>
+                <div class="footer-copyright">
+                  <p>©2025-2026 Web Developer | All Rights Reserved</p>
                 </div>
               </div>
             </div>
